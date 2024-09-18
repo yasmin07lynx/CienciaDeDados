@@ -7,3 +7,8 @@
 --tipo-fonte: Fascinate+Inline;
 
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--second-color);
+    font-family: var(--tipo-fonte);
+}
