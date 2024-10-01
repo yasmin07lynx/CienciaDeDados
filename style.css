@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 
 :root{
 --bg-color:rgb(237, 183, 237);
 --primary-color:rgb(18, 91, 154);
 --second-color: rgb(12, 186, 209);
 --tipo-fonte: "Fascinate Inline";
+--tipo-fonte2: "Sixtyfour Convergence";
 
 }
 body{
@@ -12,6 +14,7 @@ body{
     color: var(--primary-color);
     height: 100vh;
     margin: 0;
+
 }
 
 h1{
@@ -44,6 +47,7 @@ header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
+    font-family: var(--tipo-fonte2);
 }
 
 footer {
