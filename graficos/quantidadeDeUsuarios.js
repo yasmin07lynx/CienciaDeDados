@@ -4,6 +4,8 @@ async function quantidadeUsuariosPorRede() {
     const url = 'https://raw.githubusercontent.com/yasmin07lynx/CienciaDeDados/refs/heads/main/BaseDeDados/esportes-mais-praticados.json'
     const res = await fetch(url)
     const dados = await res.json()
+    console.log(dados)
+}
     const nomeDasRedes = Object.keys(dados)
     const quantidadeDeUsuarios = Object.values(dados)
 
